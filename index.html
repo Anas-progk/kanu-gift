@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You ❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="question">you dont like me no bbg ? 💔</h1>
+        
+        <div class="buttons" id="buttons">
+            <button id="yesBtn" class="btn yes-btn">nooo i like youuu</button>
+            <button id="noBtn" class="btn no-btn">yea no</button>
+        </div>
+
+        <div id="heartbreak" class="hidden">
+            <div class="emoji">💔</div>
+            <button id="backBtn" class="btn">Go Back</button>
+        </div>
+
+        <div id="coupleGif" class="hidden">
+            <img src="cute-couple.gif" alt="Cute couple">
+            <h2>I knew it! I like you toooooo kanuuuuuuu! ❤️</h2>
+            <button id="backFromGif" class="btn back-btn">Go Back</button>
+        </div>
+    </div>
+
+    <!-- Hidden audio element for background music -->
+    <audio id="backgroundMusic" loop>
+        <source src="Espresso.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
